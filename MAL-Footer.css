@@ -66,14 +66,17 @@ footer{
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid;
+  padding-bottom: 18px;
   border-color: #534f4f;
 }
 .footer-register p{
   color: white;
   font-weight: bold;
+  font-size: 15px;
 }
 .footer-register p2{
   color: white;
+  font-size: 14px;
 }
 .register-btn{
   display: flex;
@@ -82,17 +85,103 @@ footer{
 .register-btn button{
   background-color: #4065BA;
   border: none;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   color: white;
-  padding: 4px 30px;
+  padding: 2px 34px;
   cursor: pointer;
 }
 
 .footer-icons{
   display: flex;
   justify-content: center;
+  padding-top: 20px;
+  
+}
+.footer-icons-main{
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+  border-bottom: 1px solid;
+  padding-bottom: 18px;
+  border-color: #534f4f;
 }
 .footer-download img{
   width: 100px;
+}
+.footer-media{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.footer-media p{
+  color: rgb(211, 190, 190);
+  font-size: 14px;
+}
+.footer-media i{
+  font-size: 36px;
+  color: #a3a3a3;
+  cursor: pointer;
+}
+.footer-media i:hover{
+  color: rgb(109, 100, 100);
+}
+.footer-download{
+  display: flex;
+  align-items: center;
+  color: #a3a3a3;
+  gap: 12px;
+}
+.footer-download img{
+  cursor: pointer;
+}
+.footer-download img:hover{
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 4.5);
+}
+.footer-nav{
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  color: white;
+  font-size: 14px;
+  font-weight: 100;
+}
+.footer-nav p{
+  cursor: pointer;
+}
+.footer-nav p:hover{
+  text-decoration: underline;
+}
+
+.footer-links{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding-top: 20px;
+}
+.footer-links p{
+  color:  #a3a3a3;
+  cursor: pointer;
+  font-size: 12px;
+}
+.footer-links p:hover{
+  text-decoration: underline;
+}
+.footer-linkdiv{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.footer-last{
+  color: #a3a3a3;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.footer-last span{
+  font-size: 10px;
 }
